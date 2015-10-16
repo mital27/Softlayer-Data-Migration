@@ -1,0 +1,13 @@
+*******************************Installing the Swift Command Line Client*********************************
+
+1. Ubuntu
+
+sudo aptitude install python-pip
+sudo pip install python-swiftclient
+
+2. RHEL, CentOS, or Fedora
+
+sudo yum install python-setuptools
+sudo easy_install pip
+sudo pip install --upgrade setuptools
+sudo pip install python-swiftclient
